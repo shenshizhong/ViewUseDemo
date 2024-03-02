@@ -1,6 +1,10 @@
 {
   "src": [
     "pages/Index",
-    "pages/EmitterTest"
+    "pages/EmitterTest",
+    "pages/TestLoadingPage",
+    "pages/TestAnimationPage",
+    "pages/TestProgressBarPage",
+    "pages/TestPlayVideoPage"
   ]
 }
