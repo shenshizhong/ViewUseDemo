@@ -1,4 +1,5 @@
 
+import promptAction from '@ohos.promptAction'
 @Entry
 @Component
 struct Index {
@@ -195,9 +196,24 @@ struct Index {
         .fontColor('#f00')
         .decoration({type: TextDecorationType.LineThrough})
 
+      //分割线，做成占位控件
+      Divider()
+        .height(15)
+        .color(Color.Transparent)
+
+      //toast 
+      Button('点我试试')
+        .onClick(()=>{
+          promptAction.showToast(
+            {
+              message: '记得加我v，成为你的专属终身顾问。我的v是hmssz1',
+              duration: 3000
+            }
+          )
+        })
+
     }.width('100%')
     .padding({left: 10, top: 10, right: 10})
-
 
 
   }
