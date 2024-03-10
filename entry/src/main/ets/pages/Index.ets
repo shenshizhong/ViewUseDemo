@@ -201,7 +201,7 @@ struct Index {
         .height(15)
         .color(Color.Transparent)
 
-      //toast 
+      //toast
       Button('点我试试')
         .onClick(()=>{
           promptAction.showToast(
