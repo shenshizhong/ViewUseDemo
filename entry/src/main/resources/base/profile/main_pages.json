@@ -5,6 +5,8 @@
     "pages/TestLoadingPage",
     "pages/TestAnimationPage",
     "pages/TestProgressBarPage",
-    "pages/TestPlayVideoPage"
+    "pages/TestPlayVideoPage",
+    "pages/other/PromiseTestPage",
+    "pages/SwipeTestPage"
   ]
 }
